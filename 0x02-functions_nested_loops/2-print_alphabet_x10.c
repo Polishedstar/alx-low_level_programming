@@ -1,26 +1,22 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - print 10 times the alphabet
+ *print_alphabet_x10 - prints alphabet ten times
  *
- * Return: Always success
+ * Description: print out all the letters of the english alphabet
+ * to the screen ten times.
+ * Return: Void
  */
 void print_alphabet_x10(void)
 {
-	int n, co;
-	co = 0;
-
-	while (co < 10)
-	{
-		for (n = 'a'; n <= 'z'; n++)
-		{
-			_putchar(n);
-
-		}
-
-		co++;
-
-		_putchar(*\n*);
-
-	}
-
+char c;
+int i = 0;
+while (i <= 9)
+{
+for (c = 'a'; c <= 'z'; c++)
+{
+_putchar(c);
+}
+_putchar('\n');
+i++;
+}
 }
