@@ -1,16 +1,17 @@
 #include "main.h"
 /**
- * print_alphabet - print lowercase alphabets
+ * print_alphabet - prints alphabet to terminal
  *
- * Return: Always success
+ *  Description: Prints the letters of the english alphabet
+ *   in lowercase to the terminal.
+ *  Return: void
  */
 void print_alphabet(void)
 {
-	int n;
-
-	for (n = 'a'; n <= 'z'; n++)
-	{
-		_putchar(n);
-	}
-	_putchar("\n");
+char al;
+for (al = 'a'; al <= 'z'; al++)
+{
+_putchar(al);
+}
+_putchar('\n');
 }
